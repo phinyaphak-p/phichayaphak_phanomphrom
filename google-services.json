@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "614097510744",
+    "project_id": "wordlygrams",
+    "storage_bucket": "wordlygrams.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614097510744:android:5e290bbb977190b87e052d",
+        "android_client_info": {
+          "package_name": "com.phichayaphak.wordlygrams"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614097510744-eqn7lvtkmhtf97j35nnihckfj68tbtv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phichayaphak.wordlygrams",
+            "certificate_hash": "bcba23cb6e1eeda33b8f98127b1d3de87a0c4fe8"
+          }
+        },
+        {
+          "client_id": "614097510744-765el13nk1pf7ne2dc52voor6lkeo70l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6V0mVb_seC9hYPeegUFxWVah8RWatzdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614097510744-765el13nk1pf7ne2dc52voor6lkeo70l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

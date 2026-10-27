@@ -1,0 +1,34 @@
+// ไฟล์ตั้งค่าการสร้างแอปของ expo application services (eas build) ใช้คอมไพล์และสร้างไฟล์ติดตั้งแอป .apk สำหรับ android
+{
+  "cli": {
+    "version": ">= 24.8.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "npm_config_legacy_peer_deps": "true"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "npm_config_legacy_peer_deps": "true"
+      }
+    },
+    "production": {
+      "autoIncrement": true,
+      "env": {
+        "npm_config_legacy_peer_deps": "true"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

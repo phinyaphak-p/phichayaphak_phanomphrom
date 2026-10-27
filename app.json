@@ -1,0 +1,81 @@
+{
+  "expo": {
+    "name": "WordlyGrams",
+    "slug": "MySeniorProject",
+    "scheme": "wordlygrams",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo-project.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/background-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.phichayaphak.wordlygrams",
+      "infoPlist": {
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "v9wttpbfk9.skadnetwork"
+          },
+          {
+            "SKAdNetworkIdentifier": "n38lu8286q.skadnetwork"
+          }
+        ]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/GrammyGrammy.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.phichayaphak.wordlygrams",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.INTERNET"
+        
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "react-native-fbsdk-next",
+        {
+          "appID": "2167220700783761",
+          "clientToken": "cf3e042482c526796b129d4b06f5bbbe",
+          "displayName": "wordlygrams"
+        }
+      ],
+      [
+        "expo-web-browser",
+        {
+          "callbackUrlScheme": "wordlygrams"
+        }
+      ],
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth",
+      "@react-native-google-signin/google-signin"
+    ],
+    "extra": {
+      "googleWebClientId": "614097510744-765el13nk1pf7ne2dc52voor6lkeo70l.apps.googleusercontent.com",
+      "googleAndroidClientId": "614097510744-a3a7tcuo4kjcrsb7ck41kcqrormpf198.apps.googleusercontent.com",
+      "googleIosClientId": "",
+      "firebaseApiKey": "AIzaSyA4W1GchshWwf4sgRB1rKGZgmjtSYgNcGo",
+      "firebaseAuthDomain": "wordlygrams.firebaseapp.com",
+      "firebaseProjectId": "wordlygrams",
+      "firebaseStorageBucket": "wordlygrams.firebasestorage.app",
+      "firebaseMessagingSenderId": "614097510744",
+      "firebaseAppId": "1:614097510744:web:73d0ec5d68aa29207e052d",
+      "eas": {
+        "projectId": "10195b27-79b0-48ab-826f-ae2f4ae3a3df"
+      }
+  
+    }
+  }
+}
