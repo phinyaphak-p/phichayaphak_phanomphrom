@@ -1,1 +1,6 @@
-[<img width="822" height="266" alt="image" src="https://github.com/user-attachments/assets/337d2fa0-900f-4fe7-b041-f8da141d9c78" />](https://youtu.be/_R2JDutA7k8)
+โครงงานแอปพลิเคชันเกมฝึกภาษาอังกฤษ
+
+> **🎥 วิดีโอแนะนำและสาธิตการใช้งานโปรเจกต์ :**
+> สามารถคลิกที่รูปภาพด้านล่างเพื่อรับชมวิดีโอพรีเซนต์บน YouTube ได้ทันทีค่ะ 👇
+
+[![WordlyGrams Presentation Video](https://img.youtube.com/vi/_R2JDutA7k8/0.jpg)](https://youtu.be/_R2JDutA7k8)
